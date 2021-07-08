@@ -1,7 +1,8 @@
 Package: brgedata
 Title: Exposures, Gene Expression and Methylation data for ilustration purpouses
 Version: 1.15.0
-Authors@R: c(person("Carlos", "Ruiz-Arenas", email = "carlos.ruiz@isglobal.org", role = c("aut", "cre")),
+Authors@R: c(person("Dolors", "Pelegri-Siso", email = "dolors.pelegri@isglobal.org", role = c("aut", "cre")),
+    person("Carlos", "Ruiz-Arenas", email = "carlos.ruiz@isglobal.org", role = "aut"),
     person("Carles", "Hernandez-Ferrer", email = "carles.hernandez@isglobal.org", role = "aut"),
     person("Juan R.", "Gonzalez", email = "juanr.gonzalez@isglobal.org", role = "aut"))
 Description: This package contains several sets of omics data including Gene 
@@ -20,5 +21,6 @@ Suggests:
     minfi,
     MultiAssayExperiment,
     knitr, 
+    rmarkdown,
 	rexposome
 biocViews: ExperimentData,Homo_sapiens_Data,MicroarrayData,MethylationArrayData

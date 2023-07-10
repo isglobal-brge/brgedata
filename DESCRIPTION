@@ -1,11 +1,11 @@
 Package: brgedata
 Title: Exposures, Gene Expression and Methylation data for ilustration purpouses
-Version: 1.23.0
+Version: 1.23.1
 Authors@R: c(person("Dolors", "Pelegri-Siso", email = "dolors.pelegri@isglobal.org", role = c("aut", "cre")),
     person("Carlos", "Ruiz-Arenas", email = "carlos.ruiz@isglobal.org", role = "aut"),
     person("Carles", "Hernandez-Ferrer", email = "carles.hernandez@isglobal.org", role = "aut"),
     person("Juan R.", "Gonzalez", email = "juanr.gonzalez@isglobal.org", role = "aut"))
-Description: This package contains several sets of omics data including Gene 
+Description: This package contains several sets of omics data including Gene
     Expression (ExpressionSet), Methylation (GenomicRatioSet), Proteome and Exposome
     (ExposomeSet). This data is used in vignettes and exaples at MEAL, MultiDataSet and 
     omicRexposome.
@@ -20,7 +20,8 @@ Imports: SummarizedExperiment
 Suggests:
     minfi,
     MultiAssayExperiment,
-    knitr, 
+    knitr,
     rmarkdown,
-	rexposome
+	rexposome,
+	BiocStyle
 biocViews: ExperimentData,Homo_sapiens_Data,MicroarrayData,MethylationArrayData
